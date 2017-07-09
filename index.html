@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Banking Form - CSS validation classes</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div>
+    <form>
+        First name: <input type="text" name="fname"><br>
+        Middle Inital: <input type="text" name="minit"><br>
+        Last Name: <input type="text" name="lname"><br>
+        Address: <input type="text" name="add"><br>
+        Occupation: <input type="text" name="job"><br>
+        Employer: <input type="text" name="boss"><br>
+        Loan Type: <select id="types">
+        <option value="Commercial">Commercial</option>
+        <option value="Real Estate">Real Estate</option>
+        <option value="Personal">Personal</option>
+        <option value="Mortgage">Mortgage</option>
+    </select><br>
+        Requested Loan Amount: <input type="number"> <br>
+        Loan Length:
+        <br><input type="radio" name="length" value="5">5 years <br>
+        <input type="radio" name="length" value="15">15 years <br>
+        <input type="radio" name="length" value="30">30 years <br> <br>
+        <input type="checkbox">I have a down payment <br>
+        <input type="checkbox">Out-of-state resident <br>
+        <input type="checkbox">Married <br>
+        <input type="checkbox">Loan will be co-signed <br>
+        <textarea name="Additional Comments" id="" cols="100" rows="10">Additional Comments</textarea> <br>
+        Email: <input type="email" required> <br>
+        Telephone:<input type="tel"> <br>
+        LinkedIn URL: <input type="URL" required>
+    </form>
+</div>
+</body>
+</html>
